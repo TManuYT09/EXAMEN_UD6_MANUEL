@@ -25,7 +25,7 @@ public class Artista extends MutxaAwards implements AccionesAsistentes{
     }
 
     public void recogerPremio(Premio premio){
-        if (nombre.equals(premio.getGanador().getNombre())){
+        if (nombre.equals(premio.getGanador().getNombre())){ //Comprobar si el artista es el verdadero ganador del premio
             System.out.println("El artista "+nombre+" sube a recoger el premio "+premio.getCategoria());
         }else {
             throw new RecogerPremioException();
@@ -56,7 +56,7 @@ public class Artista extends MutxaAwards implements AccionesAsistentes{
     @Override
     void obtenerDetalles() {
         System.out.print("Artista: "+nombre+", con "+categorias.size()+" nominaciones a : "+categorias+" y "+listaPremios.size()+" premios ganados ");
-        for (Premio prem:listaPremios){
+        for (Premio prem:listaPremios){ //Mostrando los premios ganados por el artista
             System.out.print(prem.getCategoria());
         }
         System.out.println();
