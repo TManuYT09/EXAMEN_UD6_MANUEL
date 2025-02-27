@@ -1,8 +1,6 @@
 package org.example.mutxaAwards;
 
 abstract class MutxaAwards {
-
-
     private int año;
 
     public MutxaAwards(int año) {
