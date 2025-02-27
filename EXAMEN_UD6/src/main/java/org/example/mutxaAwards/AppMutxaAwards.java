@@ -113,6 +113,12 @@ public class AppMutxaAwards {
         presentador1.darDiscurso("para despedir la gala");
         System.out.println("-----------");
         // mostrarDetalles() de cada artista después de la gala
+        artista1.obtenerDetalles();
+        artista2.obtenerDetalles();
+        artista3.obtenerDetalles();
+        artista4.obtenerDetalles();
+        artista5.obtenerDetalles();
+        System.out.println("-----------");
     }
 
 }

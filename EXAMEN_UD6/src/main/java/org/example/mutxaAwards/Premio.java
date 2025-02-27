@@ -24,5 +24,4 @@ public class Premio {
         this.ganador = ganador;
     }
 
-
 }
