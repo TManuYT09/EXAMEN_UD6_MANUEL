@@ -105,10 +105,13 @@ public class AppMutxaAwards {
         System.out.println("-----------");
         // el artista ganador recoge el premio
         artista4.recogerPremio(premio2);
+        System.out.println("-----------");
         // el presentador entrega el premio
         presentador1.entregarPremio(premio2);
+        System.out.println("-----------");
         // el artista ganador realiza un discurso "sobre lo duro que ha sido conseguir financiación"
         artista4.darDiscurso("sobre lo duro que ha sido conseguir financiación");
+        System.out.println("-----------");
         // el presentador da un discurso "para despedir la gala"
         presentador1.darDiscurso("para despedir la gala");
         System.out.println("-----------");
